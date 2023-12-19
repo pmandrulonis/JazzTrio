@@ -1,0 +1,151 @@
+:root {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* @font-face {
+    font-family: 'paymentfont';
+    src: url('/assets/fonts/paymentfont-webfont.woff') format('woff'), 
+        url('/assets/fonts/paymentfont-webfont.svg') format('svg'),
+        url('/assets/fonts/paymentfont-webfont.ttf') format('truetype');
+} */
+body {
+    background-image: url(/src/assets/saxophoneheader.jpeg);
+    background-color: black;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.container {
+    /* position:absolute; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 200px;
+
+  }
+
+.NavigationRibbon {
+    list-style: none;
+    margin: 0;
+    display: flex; /* Make the list items display horizontally */
+    position:sticky;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  li {
+    margin: 0 25px; /* Add spacing between list items */
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  button {
+    display:inline;
+    position:relative;
+    width:150px;
+    padding:15px;
+    border-radius: 25px;
+    /* background-image:linear-gradient(to right, darkblue, blueviolet); */
+    color:white;
+    font-family:inherit;
+    font-size:medium;
+}
+
+
+.aboutDetails {
+    padding:20px; 
+    background-color:white;
+    border-radius:20px;
+    width: 750px;
+    height:150px;
+    justify-content: center;
+    color:black;
+}
+.GetStartedInfo {
+    padding:20px; 
+    width: 750px;
+    height:150px;
+    justify-content: center; 
+    align-items:center;
+    left: 25%;
+}
+.GetStartSubtitle {
+    color:blueviolet; 
+}
+
+.GetStartedDetailsList {
+    width:1000px;
+    text-align: left;
+    position: relative;
+    padding-bottom: 50px;
+}
+.HeadersNumbers {
+    font-size: 40px;
+    color:darkblue;
+}
+
+/* .ListHeaders {
+    list-style: none;
+    display:flex;
+}
+.ListHeaders > li {
+    margin: 0 100px;
+    color: darkblue;
+    font-size: 30px;
+}
+.ListSubHeaders {
+    list-style: none;
+    display:flex;
+}
+.ListSubHeaders > li {
+    margin: 0 100px;
+    text-align: left;
+} */
+
+.CurrencyGrid {
+    background-color: white;
+    border-color:darkblue;
+    border-style: solid;
+    position:relative;
+    display:flex;
+    width: 280px;
+    left: 34%;
+}
+.CurrecyGrid > last-child {
+    border-bottom-right-radius: 5px;
+}
+
+.CurrencyGrid > th {
+    width: 70px;
+}
+.CurrencyGrid > button {
+    background-color:transparent;
+}
+
+.AboutTim {
+    color: black;
+    position: center;
+    text-align: center;
+    font-size:30px;
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+  }
+  
